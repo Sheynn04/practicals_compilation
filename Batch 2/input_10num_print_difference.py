@@ -1,11 +1,6 @@
 # Ask user to input 10 numbers
-# Print the sum of all numbers
-
-sum = 0
+# Get the first number
+# Minus all the other number
 
 for i in range (10):
     num = float(input(f'Input number {i+1}: '))
-    sum += num
-
-print(sum)
-    
