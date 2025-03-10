@@ -6,5 +6,3 @@ num2 = float(input('Input 2nd number: '))
 
 if num1 == num2:
     print ("Equal")
-else:
-    exit()
