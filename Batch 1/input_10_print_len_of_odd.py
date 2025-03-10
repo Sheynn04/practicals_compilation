@@ -3,8 +3,8 @@
 
 odd = []
 
-for i in range (1, 11):
-    num = float(input(f'Input number {i}: '))
+for i in range (10):
+    num = float(input(f'Input number {i+1}: '))
     if num % 2 != 0:
         odd.append(num)
 
