@@ -8,4 +8,4 @@ for i in range (10):
     if num % 2 != 0:
         odd.append(num)
 
-print (len(odd))
+print(len(odd))

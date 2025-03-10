@@ -5,4 +5,4 @@ num1 = float(input('Input 1st number: '))
 num2 = float(input('Input 2nd number: '))
 
 if num1 == num2:
-    print ("Equal")
+    print("Equal")
