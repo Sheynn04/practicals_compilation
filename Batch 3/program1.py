@@ -1,11 +1,12 @@
 # Ask user to input 10 numbers
 # Display all numbers without duplicates
 
-non_dupe_nums = []
+nums_compile = []
 
 for i in range(10):
     num_input = int(input(f'Input number {i+1}: '))
-    if num_input != non_dupe_nums:
-        non_dupe_nums.append(num_input)
+    nums_compile.append(num_input)
 
+non_dupe_nums = list(set(nums_compile))
 print(non_dupe_nums)
+    
