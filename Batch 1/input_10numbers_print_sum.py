@@ -3,7 +3,7 @@
 
 sum = 0
 
-for i in range (10):
+for i in range(10):
     num = float(input(f'Input number {i+1}: '))
     sum += num
 
