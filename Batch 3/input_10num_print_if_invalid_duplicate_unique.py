@@ -3,4 +3,10 @@
 # Display "Unique" after input when the inputted number don't have duplicate. 
 # Display "Duplicate" after input when the inputted number have duplicate.
 
-num = int(input("Input number: "))
+numbers = []
+while True: 
+    num = int(input("Input number: "))
+    numbers.append(num)
+
+
+    
