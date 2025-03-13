@@ -5,11 +5,17 @@
 num_list = []
 
 while True:
+
     try:
         number = int(input("Enter a number: "))
         num_list.append(number)
+
     except ValueError:
+        most_duplicate_num = max(set(num_list), key=num_list.count)
+        print(most_duplicate_num)
         exit()
+
+
 
 
 
