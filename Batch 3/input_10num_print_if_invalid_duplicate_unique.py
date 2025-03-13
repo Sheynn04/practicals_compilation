@@ -5,13 +5,18 @@
 
 numbers = []
 while True: 
-    num = int(input("Input number: "))
+    try:
+        num = int(input("Input number: "))
+
+    except ValueError:
+        exit()
 
     if num in numbers:
         print("Duplicate")
     else:
         print("Unique")
         numbers.append(num)
+    
 
         
 
