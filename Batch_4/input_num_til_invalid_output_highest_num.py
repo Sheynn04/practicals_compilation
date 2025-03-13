@@ -9,4 +9,5 @@ while True:
         num_list.append(number)
 
     except ValueError:
+        print(max(num_list))
         exit()
