@@ -7,4 +7,5 @@ while True:
         numbers = int(input("Input number: "))
         num_list.append(numbers)
     except ValueError:
+        print(sum(num_list)/len(num_list))
         exit()
