@@ -3,5 +3,9 @@
 # Display the number from lowest to highest. Clue: sort() function
 
 while True:
-    number = int(input("Enter number: "))
+    try:
+        number = int(input("Enter number: "))
+    except ValueError:
+        exit()
+
     
