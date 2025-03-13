@@ -6,15 +6,14 @@
 numbers = []
 while True: 
     num = int(input("Input number: "))
-    numbers.append(num)
 
-    for unique_num in numbers:
-        if numbers.count(unique_num) == 1:
-            print('Unique')
+    if num in numbers:
+        print("Duplicate")
+    else:
+        print("Unique")
+        numbers.append(num)
 
-    for dupe_num in numbers:
-        if numbers.count(dupe_num) != 1:
-            print('Duplicate')
+        
 
 
 
