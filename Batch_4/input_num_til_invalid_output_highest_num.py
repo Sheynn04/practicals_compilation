@@ -2,5 +2,11 @@
 # continue asking until the user input is invalid. 
 # Display the highest number
 
+num_list = []
 while True:
-    number = int(input("Input number:"))
+    try:
+        number = int(input("Input number:"))
+        num_list.append(number)
+
+    except ValueError:
+        exit()
