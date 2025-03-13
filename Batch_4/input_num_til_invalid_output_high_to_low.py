@@ -9,5 +9,7 @@ while True:
         numbers = int(input("Input numbers: "))
         num_list.append(numbers)
     except ValueError:
+        num_list.sort(reverse=True)
+        print(num_list)
         exit()
     
