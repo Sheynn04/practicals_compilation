@@ -3,7 +3,11 @@
 # Display the number from highest to lowest. 
 # Clue: sort() function
 
+num_list =[]
 while True:
-    numbers = int(input("Input numbers: "))
-
+    try:
+        numbers = int(input("Input numbers: "))
+        num_list.append(numbers)
+    except ValueError:
+        exit()
     
