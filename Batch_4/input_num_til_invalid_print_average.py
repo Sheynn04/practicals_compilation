@@ -1,0 +1,5 @@
+# Create a program that ask user to input a number, 
+# continue asking until the user input is invalid. 
+# Display the average.
+while True:
+    numbers = int(input("Input number: "))
