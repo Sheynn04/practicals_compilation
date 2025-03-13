@@ -8,5 +8,10 @@ while True:
     num = int(input("Input number: "))
     numbers.append(num)
 
+    for indiv_num in numbers:
+        if numbers.count(indiv_num) == 1:
+            print('Unique')
+
+
 
     
