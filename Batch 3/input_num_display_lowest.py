@@ -3,4 +3,7 @@
 # Display the lowest number
 
 while True:
-    number = int(input("Input a number: "))
+    try:
+        number = int(input("Input a number: "))
+    except ValueError:
+        exit()
