@@ -12,7 +12,7 @@ while True:
 
     except ValueError:
         most_duplicate_num = max(set(num_list), key=num_list.count)
-        print(most_duplicate_num)
+        print(f"Most entered number: {most_duplicate_num}")
         exit()
 
 
