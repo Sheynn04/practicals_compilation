@@ -2,7 +2,16 @@
 # continue asking until the user input is invalid. 
 # Display the number with the most number of duplicate.
 
+num_list = []
+
 while True:
-    number = int(input("Enter a number: "))
+    try:
+        number = int(input("Enter a number: "))
+        num_list.append(number)
+    except ValueError:
+        exit()
+
+
+
 
     
